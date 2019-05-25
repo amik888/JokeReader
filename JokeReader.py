@@ -18,7 +18,5 @@ for line in punchlineRead:
     
 punchlineRead.close()
 
-# Reverses the list and prints the first line of the punchline
-# file by printing the new first element of the list.
-punchlineList.reverse()
-print(punchlineList[0])
+# Prints the last element of the punchline file
+print(punchlineList[-1])
