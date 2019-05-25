@@ -18,5 +18,5 @@ for line in punchlineRead:
     
 punchlineRead.close()
 
-# Prints the last element of the punchline file
+# Prints the last element of the punchline list.
 print(punchlineList[-1])
